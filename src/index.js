@@ -42,8 +42,8 @@ currentDateELement.innerHTML = formatDate(currentDate);
 function displayTemperature(response) {
   let temperature = Math.round(response.data.temperature.current);
 
-  let display-value = document.querySelector("#display-value");  
-  display-value.innerHTML = &{temperature};
+  let displayValue = document.querySelector("#display-value");  
+  displayValue.innerHTML = ${temperature};
 }
 
 let apiKey ="1b65ca4080fbdt34boc9087362443ad0";
