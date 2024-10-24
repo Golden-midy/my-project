@@ -43,7 +43,7 @@ function displayTemperature(response) {
   let temperature = Math.round(response.data.temperature.current);
 
   let displayValue = document.querySelector("#display-value");  
-  displayValue.innerHTML = ${temperature};
+ displayValue.innerHTML = `${temperature};`; 
 }
 
 let apiKey ="1b65ca4080fbdt34boc9087362443ad0";
