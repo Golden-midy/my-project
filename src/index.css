@@ -86,9 +86,14 @@ main {
   font-weight: bold;
 }
 
-.weatehr-app-unit {
+.current-temperature-value {
   margin-top: 6px;
   font-size: 28px;
+}
+.current-temperature-unit {
+  display: flex;
+  justify-content: right;
+  text-align: right;
 }
 
 footer {
