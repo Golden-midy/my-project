@@ -68,15 +68,9 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
-  justify-content: right;
-  text-align: right;
 }
 
 .weather-app-icon {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  margin: top 6px; ;
   width: 88px;
   height: 88px;
 }
@@ -87,7 +81,7 @@ main {
   font-weight: bold;
 }
 
-.current-temperature-value {
+.weather-app-temperature-value {
   display: flex;
   justify-content: right;
   text-align: right;
