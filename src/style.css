@@ -76,6 +76,7 @@ main {
   display: flex;
   justify-content: right;
   text-align: right;
+  margin: top 6px; ;
   width: 88px;
   height: 88px;
 }
